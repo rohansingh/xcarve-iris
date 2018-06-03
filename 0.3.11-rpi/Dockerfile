@@ -1,4 +1,4 @@
-FROM hypriot/rpi-node:4.5
+FROM arm32v7/node:6-stretch
 
 RUN apt-get update \
     && apt-get -y install p7zip-full cpio \

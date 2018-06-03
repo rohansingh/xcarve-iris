@@ -1,4 +1,4 @@
-FROM node:4.6-slim
+FROM node:6-slim
 
 RUN apt-get update \
     && apt-get -y install p7zip-full cpio \
